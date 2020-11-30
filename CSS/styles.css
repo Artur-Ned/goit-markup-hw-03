@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 ul {
   list-style: none;
   text-decoration: none;
@@ -11,10 +21,17 @@ ul {
   --all-text-color: #212121;
 }
 
+/*outline: 2px soloid tomato - рамка
+
+
+
+*/
+
 /*----------BODY------------*/
 body {
   font-family: var(--main-font);
   background-color: #ffffff;
+  margin: 0;
 }
 
 .logotype {
@@ -85,6 +102,7 @@ body {
   font-size: 16px;
   line-height: 1, 875;
   letter-spacing: 0.06em;
+  border-radius: 4px;
   /*color: #FFFFFF;*/
 }
 
@@ -167,6 +185,7 @@ body {
   line-height: 1, 625;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
 }
 .p-section-work h2 {
   font-weight: 500;
