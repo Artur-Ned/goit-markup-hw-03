@@ -103,6 +103,7 @@ body {
   line-height: 1, 875;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  padding: 10px 32px;
   /*color: #FFFFFF;*/
 }
 
@@ -209,3 +210,14 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 {
   color: #ffffff;
 }
+
+/*всем кнопкам задаём рамку прозрачную 
+.btn-heroy {
+  border: 1px solid transparent
+}
+
+.titleh1 {
+  margin-top: 0;
+  margin-bottom: 0;
+} сбросили марджины в заголовке
+*/
