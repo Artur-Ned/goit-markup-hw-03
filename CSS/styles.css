@@ -11,6 +11,8 @@ html {
 ul {
   list-style: none;
   text-decoration: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 :root {
@@ -28,6 +30,14 @@ ul {
 */
 
 /*----------BODY------------*/
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   font-family: var(--main-font);
   background-color: #ffffff;
@@ -80,6 +90,9 @@ body {
   text-decoration: none;
 }
 
+.header {
+  outline: 2px solid tomato;
+}
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
@@ -95,6 +108,11 @@ body {
   font-size: 44px;
   line-height: 1, 363;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30;
+  outline: 2px solid tomato;
+  text-align: center;
+
   /*color: #ffffff;*/
 }
 .btn-heroy {
@@ -104,6 +122,7 @@ body {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
+
   /*color: #FFFFFF;*/
 }
 
@@ -220,4 +239,9 @@ a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
   margin-top: 0;
   margin-bottom: 0;
 } сбросили марджины в заголовке
+
+.btn-heroy {
+text-align: center;
+
+} чтобы задать центр тексту нужно его родителю задать
 */
