@@ -102,6 +102,10 @@ body {
 }
 
 /*----------Герой------------*/
+.herou {
+  text-align: center;
+}
+
 .titleh1 {
   font-style: normal;
   font-weight: 900;
