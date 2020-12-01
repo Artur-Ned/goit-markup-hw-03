@@ -104,6 +104,7 @@ body {
 /*----------Герой------------*/
 .herou {
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .titleh1 {
@@ -131,6 +132,9 @@ body {
 }
 
 /*----------ОСОБЕННОСТИ------------*/
+.exclusivity {
+  padding-bottom: 106px;
+}
 
 .exclus-title {
   font-size: 14px;
@@ -138,6 +142,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--all-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.exclus-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .exclus-text {
@@ -149,7 +159,10 @@ body {
 }
 
 /*----------works foto--------------*/
-
+.our-job h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 /*----------our team--------------*/
 .team-title {
   font-weight: 700;
