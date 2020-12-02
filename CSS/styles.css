@@ -8,11 +8,28 @@ html {
   box-sizing: inherit;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
   text-decoration: none;
   padding: 0px;
   margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+}
+img {
+  display: block;
 }
 
 :root {
@@ -23,11 +40,7 @@ ul {
   --all-text-color: #212121;
 }
 
-/*outline: 2px soloid tomato - рамка
-
-
-
-*/
+/*outline: 2px soloid tomato - рамка*/
 
 /*----------BODY------------*/
 .conteiner {
@@ -36,6 +49,7 @@ ul {
   max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 body {
@@ -90,9 +104,6 @@ body {
   text-decoration: none;
 }
 
-.header {
-  outline: 2px solid tomato;
-}
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
@@ -103,13 +114,17 @@ body {
 
 /*----------Герой------------*/
 .herou {
+  width: 1600px;
+  height: 600px;
+  outline: 2px solid tomato;
+  /*
+  left: 0px;
   text-align: center;
-  margin-bottom: 94px;
+  margin-bottom: 94px;*/
 }
 
 .titleh1 {
   font-style: normal;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
   letter-spacing: 0.06em;
