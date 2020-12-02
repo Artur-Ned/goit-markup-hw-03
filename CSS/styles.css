@@ -49,7 +49,7 @@ img {
   max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  *outline: 2px solid tomato;
 }
 
 body {
@@ -114,13 +114,10 @@ body {
 
 /*----------Герой------------*/
 .herou {
-  width: 1600px;
-  height: 600px;
-  outline: 2px solid tomato;
-  /*
-  left: 0px;
   text-align: center;
-  margin-bottom: 94px;*/
+  outline: 2px solid tomato;
+  background: #2f303a;
+  margin-bottom: 94px;
 }
 
 .titleh1 {
@@ -130,10 +127,10 @@ body {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 30;
-  outline: 2px solid tomato;
+
   text-align: center;
 
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .btn-heroy {
   font-weight: 700;
@@ -253,6 +250,30 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.p-work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
+  list-style: none;
+}
+
+.p-work-item {
+  padding: 30 px;
+  margin-left: 30 px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.p-section-work img {
+  padding-bottom: 20px;
+}
+.p-section-work h2 {
+  padding-bottom: 4px;
+}
+/*==============portfolio footer===================*/
 .footer {
   background-color: #2f303a;
 }
