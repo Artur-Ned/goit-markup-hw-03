@@ -58,6 +58,34 @@ body {
   margin: 0;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.adress-list {
+  display: flex;
+}
+
+.header .logotype {
+  margin: 93px;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .adress-list-item {
+  margin-left: auto;
+}
+
 .logotype {
   font-family: var(--secondary-font);
   font-weight: 700;
