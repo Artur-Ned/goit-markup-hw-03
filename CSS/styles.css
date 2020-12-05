@@ -61,6 +61,7 @@ body {
 .header {
   display: flex;
   align-items: center;
+  outline: 2px solid tomato;
 }
 .nav {
   display: flex;
@@ -81,9 +82,8 @@ body {
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
-
-.header .adress-list-item {
-  margin-left: auto;
+.adress-list-item {
+  /* margin-left: auto; */
 }
 
 .logotype {
