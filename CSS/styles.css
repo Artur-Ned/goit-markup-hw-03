@@ -62,6 +62,8 @@ body {
   display: flex;
   align-items: center;
   outline: 2px solid tomato;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .nav {
   display: flex;
@@ -76,9 +78,6 @@ body {
   display: flex;
 }
 
-.header .logotype {
-  margin: 93px;
-}
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -90,6 +89,10 @@ body {
   margin-left: auto;
 }
 
+.header .logotype {
+  margin-right: 50px;
+}
+
 .logotype {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -98,7 +101,9 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color-heder);
+  display: block;
 }
+
 .log-part2 {
   color: var(--all-text-color);
 }
