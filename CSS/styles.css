@@ -82,8 +82,12 @@ body {
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
-.adress-list-item {
-  /* margin-left: auto; */
+.adress-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header .adress {
+  margin-left: auto;
 }
 
 .logotype {
