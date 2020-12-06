@@ -38,6 +38,7 @@ img {
   --accent-color-heder: #2196f3;
   --accent-color-footer: #ff6347;
   --all-text-color: #212121;
+  --background-main-color: #ffffff;
 }
 
 /*outline: 2px soloid tomato - рамка*/
@@ -54,7 +55,7 @@ img {
 
 body {
   font-family: var(--main-font);
-  background-color: #ffffff;
+  background-color: var(--background-main-color);
   margin: 0;
   color: var(--all-text-color);
 }
@@ -124,7 +125,7 @@ body {
 .p-button:hover,
 .p-button:focus {
   background-color: var(--accent-color-heder);
-  color: #ffffff;
+  color: var(--background-main-color);
 }
 
 .nav .nav-list-link.current {
@@ -132,7 +133,7 @@ body {
 }
 
 .adress-list a,
-.adres-footer a {
+.adress-footer a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 142px;
@@ -168,7 +169,7 @@ body {
   margin-top: 200px;
   margin-bottom: 30px;
   text-align: center;
-  color: #ffffff;
+  color: var(--background-main-color);
 }
 .btn-heroy {
   font-weight: 700;
@@ -178,10 +179,12 @@ body {
   border-radius: 4px;
   padding: 13px 30px;
   margin-bottom: 200px;
-  color: #ffffff;
+  color: var(--background-main-color);
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: var(--main-font);
+  min-width: 200px;
+  height: 50px;
 }
 
 /*----------ОСОБЕННОСТИ------------*/
@@ -250,6 +253,13 @@ body {
   background-color: #f5f4fa;
 }
 
+.our-team-item {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--background-main-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+}
 .our-team-list {
   display: flex;
   padding-bottom: 94px;
@@ -257,6 +267,14 @@ body {
 
 .our-team-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.our-team-item img {
+  margin-bottom: 30px;
+}
+
+.our-team-item h2 {
+  margin-bottom: 10px;
 }
 
 .team-title {
@@ -291,7 +309,7 @@ body {
 /*----------footer--------------*/
 
 .log-part-w {
-  color: #ffffff;
+  color: var(--background-main-color);
 }
 /*
 .adres-footer-link {
@@ -339,8 +357,8 @@ body {
 .p-work-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-left: -15px;
+  margin-top: -15px;
   padding: 0;
   list-style: none;
 }
@@ -363,13 +381,23 @@ body {
 /*==============portfolio footer===================*/
 .footer {
   background-color: #2f303a;
+  height: 252px;
+  display: block;
+  padding: 60px 0px;
+}
+
+.footer-logo {
+  padding-bottom: 20px;
 }
 
 a[href="https://goo.gl/maps/fY5pNtDdv6tUA1cWA"]
 {
-  color: #ffffff;
+  color: var(--background-main-color);
 }
 
+.adress-footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 /*всем кнопкам задаём рамку прозрачную 
 .btn-heroy {
   border: 1px solid transparent
