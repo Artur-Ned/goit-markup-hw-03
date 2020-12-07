@@ -413,7 +413,9 @@ body {
   margin-bottom: 94px;
 }
 /*==============portfolio footer===================*/
-.footer {
+
+.portfolio-footer,
+.main-footer {
   background-color: #2f303a;
   height: 252px;
   display: block;
