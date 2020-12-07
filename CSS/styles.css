@@ -157,23 +157,25 @@ body {
 
 /*----------Герой------------*/
 .herou {
+  padding: 200px 0px;
   text-align: center;
   background: #2f303a;
-  height: 600px;
+  /* height: 600px; */
   margin-bottom: 94px;
   overflow: hidden;
 }
 
 .titleh1 {
-  font-style: normal;
+  font-family: var(--main-font);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1, 363;
   letter-spacing: 0.06em;
-  margin-top: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; /**/
   text-align: center;
   color: var(--background-main-color);
 }
+
 .btn-heroy {
   font-weight: 700;
   font-size: 16px;
@@ -181,7 +183,7 @@ body {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 13px 30px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   color: var(--background-main-color);
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
