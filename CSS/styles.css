@@ -16,6 +16,11 @@ ol {
   margin: 0px;
 }
 
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -174,6 +179,7 @@ body {
   margin-bottom: 30px; /**/
   text-align: center;
   color: var(--background-main-color);
+  text-transform: uppercase;
 }
 
 .btn-heroy {
